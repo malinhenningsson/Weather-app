@@ -1,0 +1,61 @@
+body {
+	background-color: #444;
+	color: #333;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    text-align: center;
+    letter-spacing: 0,1rem;
+}
+
+#app {
+    margin-top: 1.5rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-form {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+
+#search-form #query-wrapper {
+	display: flex;
+	margin-bottom: 0.5rem;
+}
+
+/* make cards fit their containing columns height */
+#forecast {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#forecast #city {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#forecast #country {
+    font-size: 1.2rem;
+    color: #333;
+    background-color: lightgray;
+    padding: 0.25rem;
+}
+
+#forecast .temp {
+    font-size: 2.5rem;
+}
+
+#forecast .wind {
+    font-size: 1.5rem;
+}
+
+#forecast #lastupdate {
+    font-size: 1rem;
+}
